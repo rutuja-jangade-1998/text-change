@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ChangeTextButtonClick';
+newPost = 'Add Your Content Here';
+onAddPost(){
+this.newPost = 'Post Changes as per Instruction of Rutuja Jangade';
+}
 }
